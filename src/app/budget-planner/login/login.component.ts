@@ -9,7 +9,7 @@ import {MatSnackBar} from '@angular/material/snack-bar';
   standalone: true,
   imports: [ReactiveFormsModule,CommonModule],
   templateUrl: './login.component.html',
-  styleUrl: './login.component.scss'
+  styleUrl: './login.component.scss',
 })
 export class LoginComponent {
 loginForm: FormGroup;
